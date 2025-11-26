@@ -10,25 +10,40 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	<nav>
-		<ul>
-			<li><a href="#">menu</a></li>
-			<li><a href="#">home</a></li>
-			<li><a href="#">about</a></li>
-		</ul>
-	</nav>
-	<h1>3 random audios</h1>
-	<audio controls autoplay loop>
-  <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
-</audio>
+	<!-- Part 1: Semantic Navbar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-	<audio controls autoplay loop>
-  <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-</audio>
+  <!-- Part 2: Audio Section -->
+  <section>
+    <h2>3 random audios</h2>
 
-	<audio controls autoplay loop>
-  <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mpeg">
-</audio>
+    <audio controls>
+      <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3"
+              type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <br>
+
+    <audio controls>
+      <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"
+              type="audio/ogg">
+      Your browser does not support the audio element.
+    </audio>
+    <br>
+
+    <audio controls>
+      <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3"
+              type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+  </section>
 
 
 </body>
